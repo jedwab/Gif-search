@@ -63,8 +63,8 @@ App = React.createClass({
 
         return (
             <div style={styles} className='appcontent'>
-                <h1>Wyszukiwarka GIFow!</h1>
-                <p>Znajdź gifa na <a href='http://giphy.com'>giphy</a>. Naciśnij enter, aby pobierać kolejne gify.</p>
+                <h1>GIF Search Machine!</h1>
+                <p>Znajdź gifa na <a href='http://giphy.com'>giphy</a> Press enter to see next gif.</p>
                 <Search onSearch={this.handleSearch} />
                 <Gif
                     loading={this.state.loading}
